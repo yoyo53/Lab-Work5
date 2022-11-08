@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Full Review - Yohan VILLIERS</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Excel Functions</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="excel.html">Excel</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form id="main_form">
+                <label for="numbers">Enter your numbers separated by space</label>
+                <input type="text" id="numbers" required>
+                <br>
+                <input type="radio" id="total" name="function" checked="checked">
+                <label for="total">AutoSum</label>
+                <br>
+                <input type="radio" id="average" name="function">
+                <label for="average">Average</label>
+                <br>
+                <input type="radio" id="maximum" name="function">
+                <label for="maximum">Max</label>
+                <br>
+                <input type="radio" id="minimum" name="function">
+                <label for="minimum">Min</label>
+                <div id="buttons">
+                    <input type="button" onclick="myExcelFuns();" value="Calculate">
+                </div>
+            </form>
+            <p id="output"></p>
+        </main>
+        <footer>
+            <p>ILAC & EFREI Partnership - HTML, CSS, and JavaScript Main Lab Work - Yohan VILLIERS</p>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
